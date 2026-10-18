@@ -1,0 +1,6 @@
+{
+  "name": "极光VIP会员导航管理系统",
+  "description": "专业一键配置安装的导航网站系统，支持分类展示、广告位预留、点击强制邀请码注册登录解锁、会员等级与有效期后台管理。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

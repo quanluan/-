@@ -1,0 +1,474 @@
+{
+  "settings": {
+    "installed": true,
+    "siteName": "极光VIP会员导航",
+    "siteSlogan": "精选高价值互联网工具与资源 · 邀请制VIP会员直达",
+    "siteNotice": "📢 欢迎光临极光导航！点击任意网站卡片需登录会员；新用户使用专属邀请码注册即刻激活VIP特权！",
+    "showNotice": true,
+    "invitePurchaseUrl": "https://t.me/aurora_vip_nav",
+    "invitePurchaseButtonText": "获取专属邀请码",
+    "forceLoginToViewUrl": true,
+    "allowPublicSubmission": true,
+    "autoApproveSubmission": false,
+    "defaultVipDays": 30,
+    "contactEmail": "admin@auroranav.com",
+    "telegramGroup": "@aurora_vip_nav"
+  },
+  "users": [
+    {
+      "id": "user-admin",
+      "username": "admin",
+      "nickname": "超级管理员",
+      "passwordHash": "7246857f6deb1c4ecf15fc5043adb1a0fd08c6f1f192ff6b9ff9e9127b7242604cd442d5fdefdb0ec9c70424fbb6f65240d15f90617df573e4f06a2c69823b7c",
+      "salt": "e8b83920c78a01f9c8914b72",
+      "role": "admin",
+      "vipTier": "svip",
+      "vipTierName": "SVIP至尊会员",
+      "vipExpireAt": null,
+      "createdAt": "2026-10-18T13:42:00.692Z",
+      "status": "active"
+    },
+    {
+      "id": "user-demo-vip",
+      "username": "vip_user",
+      "nickname": "体验体验者",
+      "passwordHash": "150854484818801dd4d8a2b86174e202fe8d872c23f404d86d41f9d8691ea39d71b96ada78f529d97875f0316cba968de673346d9a419ae69af4e9840b7e6539",
+      "salt": "salt_demo_vip_123",
+      "role": "user",
+      "vipTier": "vip",
+      "vipTierName": "VIP黄金会员",
+      "vipExpireAt": 1794922920693,
+      "inviteCodeUsed": "VIP888-2026",
+      "createdAt": "2026-10-18T13:42:00.693Z",
+      "status": "active"
+    },
+    {
+      "id": "usr-462d669d",
+      "username": "test_member",
+      "nickname": "test_member",
+      "passwordHash": "f92015810c328f91af1bd660828b452ff6a8c6c59846db608be949b7dd9fe2d8cb54dbc414f44c48cc180135b4740378a30dcdfb372e8c5ad5af55e4d601424f",
+      "salt": "82f2210fb51b29bb54943d3fc63a63cd",
+      "role": "user",
+      "vipTier": "vip",
+      "vipTierName": "VIP体验卡 (7天)",
+      "vipExpireAt": 1792935738072,
+      "inviteCodeUsed": "START-FREE-7DAYS",
+      "createdAt": "2026-10-18T13:42:18.073Z",
+      "status": "active"
+    }
+  ],
+  "inviteCodes": [
+    {
+      "id": "inv-d7c9559f",
+      "code": "TESTVIP-3D4BB8-9624",
+      "vipDays": 90,
+      "vipTier": "svip",
+      "vipTierName": "SVIP至尊会员 (90天)",
+      "status": "unused",
+      "usedByUserId": null,
+      "usedByUsername": null,
+      "usedAt": null,
+      "createdAt": "2026-10-18T13:42:41.807Z",
+      "remark": "测试生成"
+    },
+    {
+      "id": "inv-a1f65c38",
+      "code": "TESTVIP-CBD0E3-9415",
+      "vipDays": 90,
+      "vipTier": "svip",
+      "vipTierName": "SVIP至尊会员 (90天)",
+      "status": "unused",
+      "usedByUserId": null,
+      "usedByUsername": null,
+      "usedAt": null,
+      "createdAt": "2026-10-18T13:42:41.807Z",
+      "remark": "测试生成"
+    },
+    {
+      "id": "inv-4ff44156",
+      "code": "TESTVIP-CFC033-5681",
+      "vipDays": 90,
+      "vipTier": "svip",
+      "vipTierName": "SVIP至尊会员 (90天)",
+      "status": "unused",
+      "usedByUserId": null,
+      "usedByUsername": null,
+      "usedAt": null,
+      "createdAt": "2026-10-18T13:42:41.807Z",
+      "remark": "测试生成"
+    },
+    {
+      "id": "code-1",
+      "code": "VIP888-2026",
+      "vipDays": 30,
+      "vipTier": "vip",
+      "vipTierName": "VIP黄金会员 (月卡)",
+      "status": "unused",
+      "usedByUserId": null,
+      "usedByUsername": null,
+      "usedAt": null,
+      "createdAt": "2026-10-18T13:42:00.692Z",
+      "remark": "新手赠送体验月卡"
+    },
+    {
+      "id": "code-2",
+      "code": "VIP-ANNUAL-999",
+      "vipDays": 365,
+      "vipTier": "vip",
+      "vipTierName": "VIP黄金会员 (年卡)",
+      "status": "unused",
+      "usedByUserId": null,
+      "usedByUsername": null,
+      "usedAt": null,
+      "createdAt": "2026-10-18T13:42:00.692Z",
+      "remark": "年度会员尊享码"
+    },
+    {
+      "id": "code-3",
+      "code": "SVIP-FOREVER-KING",
+      "vipDays": 9999,
+      "vipTier": "svip",
+      "vipTierName": "SVIP至尊会员 (永久有效)",
+      "status": "unused",
+      "usedByUserId": null,
+      "usedByUsername": null,
+      "usedAt": null,
+      "createdAt": "2026-10-18T13:42:00.692Z",
+      "remark": "终身至尊VIP特权邀请码"
+    },
+    {
+      "id": "code-4",
+      "code": "START-FREE-7DAYS",
+      "vipDays": 7,
+      "vipTier": "vip",
+      "vipTierName": "VIP体验卡 (7天)",
+      "status": "used",
+      "usedByUserId": "usr-462d669d",
+      "usedByUsername": "test_member",
+      "usedAt": "2026-10-18T13:42:18.074Z",
+      "createdAt": "2026-10-18T13:42:00.692Z",
+      "remark": "官方社区限时发放"
+    },
+    {
+      "id": "code-5",
+      "code": "AURORA-PRO-666",
+      "vipDays": 90,
+      "vipTier": "svip",
+      "vipTierName": "SVIP至尊会员 (季卡)",
+      "status": "unused",
+      "usedByUserId": null,
+      "usedByUsername": null,
+      "usedAt": null,
+      "createdAt": "2026-10-18T13:42:00.692Z",
+      "remark": "高阶资源特权码"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-ai",
+      "name": "AI 智能应用",
+      "icon": "Bot",
+      "description": "国内外顶级AI助手、大模型与效率生产力工具",
+      "sortOrder": 1
+    },
+    {
+      "id": "cat-dev",
+      "name": "开发与运维",
+      "icon": "Code2",
+      "description": "代码托管、云服务、API接口与开发者文档",
+      "sortOrder": 2
+    },
+    {
+      "id": "cat-design",
+      "name": "设计与灵感",
+      "icon": "Palette",
+      "description": "UI设计、图标库、灵感图库与配色方案",
+      "sortOrder": 3
+    },
+    {
+      "id": "cat-tools",
+      "name": "实用工具箱",
+      "icon": "Wrench",
+      "description": "在线转换、格式化、效率神器与聚合检索",
+      "sortOrder": 4
+    },
+    {
+      "id": "cat-media",
+      "name": "影音与资讯",
+      "icon": "Sparkles",
+      "description": "科技媒体、全球快讯、影音视听与知识库",
+      "sortOrder": 5
+    },
+    {
+      "id": "cat-cross",
+      "name": "出海与跨境",
+      "icon": "Globe",
+      "description": "海外社媒、独立站工具、跨境金融与合规服务",
+      "sortOrder": 6
+    }
+  ],
+  "sites": [
+    {
+      "id": "site-1",
+      "title": "Google Gemini",
+      "url": "https://gemini.google.com",
+      "description": "谷歌次世代多模态大模型，具备极高的逻辑推理、编码与长文本理解能力。",
+      "categoryId": "cat-ai",
+      "iconUrl": "https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg",
+      "tags": [
+        "AI模型",
+        "谷歌",
+        "多模态",
+        "免费/高级"
+      ],
+      "isPinned": true,
+      "isFeatured": true,
+      "minVipTier": "all",
+      "status": "approved",
+      "submitterId": null,
+      "submitterName": "系统预设",
+      "clickCount": 1421,
+      "createdAt": "2026-10-18T13:42:00.692Z"
+    },
+    {
+      "id": "site-2",
+      "title": "DeepSeek 深度求索",
+      "url": "https://chat.deepseek.com",
+      "description": "开源推理霸榜模型，在数学、代码与深度思考方面具备极强表现力。",
+      "categoryId": "cat-ai",
+      "iconUrl": "https://chat.deepseek.com/favicon.ico",
+      "tags": [
+        "深度思考",
+        "国产之光",
+        "代码神作"
+      ],
+      "isPinned": true,
+      "isFeatured": true,
+      "minVipTier": "all",
+      "status": "approved",
+      "submitterId": null,
+      "submitterName": "系统预设",
+      "clickCount": 1980,
+      "createdAt": "2026-10-18T13:42:00.692Z"
+    },
+    {
+      "id": "site-3",
+      "title": "GitHub",
+      "url": "https://github.com",
+      "description": "全球最大的开源代码托管与协作平台，拥有数千万开发者与开源项目。",
+      "categoryId": "cat-dev",
+      "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+      "tags": [
+        "代码托管",
+        "Git",
+        "开源社区"
+      ],
+      "isPinned": true,
+      "isFeatured": false,
+      "minVipTier": "all",
+      "status": "approved",
+      "submitterId": null,
+      "submitterName": "系统预设",
+      "clickCount": 1120,
+      "createdAt": "2026-10-18T13:42:00.692Z"
+    },
+    {
+      "id": "site-4",
+      "title": "Vercel 云部署",
+      "url": "https://vercel.com",
+      "description": "前端与全栈开发者最好的部署托管平台，支持全球边缘加速与一键CI/CD。",
+      "categoryId": "cat-dev",
+      "iconUrl": "https://assets.vercel.com/image/upload/front/favicon/vercel/favicon.ico",
+      "tags": [
+        "Serverless",
+        "自动化部署",
+        "Next.js"
+      ],
+      "isPinned": false,
+      "isFeatured": true,
+      "minVipTier": "all",
+      "status": "approved",
+      "submitterId": null,
+      "submitterName": "系统预设",
+      "clickCount": 890,
+      "createdAt": "2026-10-18T13:42:00.692Z"
+    },
+    {
+      "id": "site-5",
+      "title": "Figma 协同设计",
+      "url": "https://www.figma.com",
+      "description": "行业标杆级多人实时协作UI/UX矢量设计工具，拥有极其丰富的插件生态。",
+      "categoryId": "cat-design",
+      "iconUrl": "https://static.figma.com/app/icon/1/favicon.png",
+      "tags": [
+        "UI设计",
+        "原型设计",
+        "团队协同"
+      ],
+      "isPinned": false,
+      "isFeatured": true,
+      "minVipTier": "all",
+      "status": "approved",
+      "submitterId": null,
+      "submitterName": "系统预设",
+      "clickCount": 760,
+      "createdAt": "2026-10-18T13:42:00.692Z"
+    },
+    {
+      "id": "site-6",
+      "title": "Midjourney 创意生图",
+      "url": "https://www.midjourney.com",
+      "description": "顶尖AI绘画与概念艺术生成工具，质感、光影、构图无可匹敌。",
+      "categoryId": "cat-design",
+      "iconUrl": "https://www.midjourney.com/favicon.ico",
+      "tags": [
+        "AI作图",
+        "艺术设计",
+        "VIP专属"
+      ],
+      "isPinned": false,
+      "isFeatured": true,
+      "minVipTier": "vip",
+      "status": "approved",
+      "submitterId": null,
+      "submitterName": "系统预设",
+      "clickCount": 1530,
+      "createdAt": "2026-10-18T13:42:00.692Z"
+    },
+    {
+      "id": "site-7",
+      "title": "TinyPNG 智能图片压缩",
+      "url": "https://tinypng.com",
+      "description": "优秀的智能有损压缩技术，极大减小WebP/PNG/JPG文件大小并保持高质量。",
+      "categoryId": "cat-tools",
+      "iconUrl": "https://tinypng.com/images/favicon.ico",
+      "tags": [
+        "图片压缩",
+        "Web优化",
+        "站长工具"
+      ],
+      "isPinned": false,
+      "isFeatured": false,
+      "minVipTier": "all",
+      "status": "approved",
+      "submitterId": null,
+      "submitterName": "系统预设",
+      "clickCount": 620,
+      "createdAt": "2026-10-18T13:42:00.692Z"
+    },
+    {
+      "id": "site-8",
+      "title": "Product Hunt 科技新品",
+      "url": "https://www.producthunt.com",
+      "description": "每日全球科技创业新产品、AI工具、SaaS服务的首发与投票发现平台。",
+      "categoryId": "cat-media",
+      "iconUrl": "https://ph-static.imgix.net/ph-favicon-coral.ico",
+      "tags": [
+        "科技趋势",
+        "独立开发",
+        "新品发布"
+      ],
+      "isPinned": false,
+      "isFeatured": true,
+      "minVipTier": "all",
+      "status": "approved",
+      "submitterId": null,
+      "submitterName": "系统预设",
+      "clickCount": 540,
+      "createdAt": "2026-10-18T13:42:00.692Z"
+    },
+    {
+      "id": "site-9",
+      "title": "Stripe 国际在线支付",
+      "url": "https://stripe.com",
+      "description": "全球互联网经济的金融基础设施，支持全球主流货币与银行卡合规结算。",
+      "categoryId": "cat-cross",
+      "iconUrl": "https://stripe.com/favicon.ico",
+      "tags": [
+        "出海支付",
+        "SaaS计费",
+        "跨境金融"
+      ],
+      "isPinned": false,
+      "isFeatured": false,
+      "minVipTier": "all",
+      "status": "approved",
+      "submitterId": null,
+      "submitterName": "系统预设",
+      "clickCount": 430,
+      "createdAt": "2026-10-18T13:42:00.692Z"
+    },
+    {
+      "id": "site-10",
+      "title": "Cursor AI 编程神器",
+      "url": "https://www.cursor.com",
+      "description": "专为与AI协同编程构建的下一代代码编辑器，大幅加速软件开发生命周期。",
+      "categoryId": "cat-dev",
+      "iconUrl": "https://www.cursor.com/favicon.ico",
+      "tags": [
+        "AI编码",
+        "VSCode深度融合",
+        "生产力"
+      ],
+      "isPinned": true,
+      "isFeatured": true,
+      "minVipTier": "vip",
+      "status": "approved",
+      "submitterId": null,
+      "submitterName": "系统预设",
+      "clickCount": 1670,
+      "createdAt": "2026-10-18T13:42:00.692Z"
+    }
+  ],
+  "ads": [
+    {
+      "id": "ad-top-1",
+      "title": "全球高防云服务器与AI算力节点特惠",
+      "position": "top_banner",
+      "imageUrl": "/src/assets/images/ad_banner_tech_1792330416603.jpg",
+      "targetUrl": "https://cloud.google.com",
+      "badgeText": "官方赞助",
+      "description": "企业级独立IP/CN2 GIA极速回国线路，新客立减50%，点击了解详情。",
+      "isActive": true,
+      "clickCount": 382,
+      "sortOrder": 1,
+      "createdAt": "2026-10-18T13:42:00.692Z"
+    },
+    {
+      "id": "ad-card-1",
+      "title": "独家海外虚拟信用卡开卡平台",
+      "position": "grid_sponsor",
+      "imageUrl": "",
+      "targetUrl": "https://stripe.com",
+      "badgeText": "黄金赞助位",
+      "description": "支持订阅OpenAI ChatGPT Plus、Claude Pro、Midjourney，0年费极速开卡。",
+      "isActive": true,
+      "clickCount": 219,
+      "sortOrder": 1,
+      "createdAt": "2026-10-18T13:42:00.692Z"
+    },
+    {
+      "id": "ad-card-2",
+      "title": "AI自动化引流与出海跨境工具包",
+      "position": "grid_sponsor",
+      "imageUrl": "",
+      "targetUrl": "https://github.com",
+      "badgeText": "精选推广",
+      "description": "一键同步多平台内容、海外社交裂变与SEO霸屏软件整合方案。",
+      "isActive": true,
+      "clickCount": 145,
+      "sortOrder": 2,
+      "createdAt": "2026-10-18T13:42:00.692Z"
+    }
+  ],
+  "sessions": {
+    "fc133fdafed55f8b97cc90199da6bd2bd907d5ec5bdd6e438eb204e920f558c0": {
+      "userId": "usr-462d669d",
+      "createdAt": 1792330938074
+    },
+    "69c3f3eda103c7f4cb5701e10c8610de2414fac207cb9ea48ea2fbc2238c2bea": {
+      "userId": "user-admin",
+      "createdAt": 1792330950868
+    }
+  }
+}
